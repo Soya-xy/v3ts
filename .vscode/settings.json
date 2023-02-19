@@ -1,0 +1,26 @@
+{
+  "cSpell.words": [
+    "antfu",
+    "demi",
+    "iconify",
+    "intlify",
+    "pinia",
+    "pnpm",
+    "unocss",
+    "unplugin",
+    "Vite",
+    "vitejs",
+    "Vitesse",
+    "vitest",
+    "vueuse",
+    "yahei"
+  ],
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "css"
+  },
+  "editor.formatOnSave": false
+}

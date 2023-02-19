@@ -1,0 +1,51 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+p,
+span {
+  user-select: none;
+}
+
+html.dark {
+  background: #121212;
+  color-scheme: dark;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: rgb(13, 148, 136);
+  opacity: 0.75;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* width of the entire scrollbar */
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  @apply bg-gray-300;
+  /* color of the scroll thumb */
+}
